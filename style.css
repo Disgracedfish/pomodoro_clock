@@ -1,0 +1,89 @@
+:root {
+    --background: white;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+::selection {
+    color: none;
+    background: none;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color:var(--background);
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/* clock styling here */
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.btn {
+    margin: 5px 10px;
+    font-size: 16pt;
+    padding: 2px;
+}
+
+.btn:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.display-box {
+    margin: 5px 10px;
+    font-size: 16pt;
+    padding: 2px;
+
+}
+
+.wide-spaced {
+    display: flex;
+    justify-content: space-around;
+}
+
+#clock-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#set-times, #pomodoro-clock {
+    background-color: black;
+    color: #ff007f;
+    margin: 7px 0px;
+}
+
+#pomodoro-clock {
+    height: 150px;
+}
+
+#timer {
+    font-size: 36pt;
+    color: #ff007f;
+    margin: 12px 0px;
+}

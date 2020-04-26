@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Pomodoro Clock</title>
+</head>
+
+
+<body>
+ 
+    <div><h1>Pomodoro Clock</h1></div>
+    <div id='clock-container'>
+        
+    <div id = 'set-times'>
+        <div class='row wide-spaced'>
+            <div class = 'col'><h2>Session</h2></div>
+            <div class = 'col'><h2>Break</h2></div>
+        </div>
+        <div class='row wide-spaced'>
+            
+            <div class='row'>
+                <div id = 'decreaseSession' class = 'col btn'>-</div>
+                <div id = 'session' class="col display-box">25</div>
+                <div id = 'increaseSession' class = 'col btn'>+</div>
+            </div>
+            <div class= 'row'>
+                <div id = 'decreaseBreak' class = 'col btn'>-</div>
+                <div id = 'break' class = 'col display-box'>5</div>
+                <div id = 'increaseBreak' class = 'col btn'>+</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id = 'pomodoro-clock'>
+        <div class='row'><h2 id = 'current-mode'>Session</h2></div>
+        <div id = 'timer' class = 'row'>25:00</div>
+        <div class = 'row'>
+            <div id = 'start-button' class = 'col btn'>start</div>
+            <div id = 'pause-button' class = 'col btn'>pause</div>
+            <div id = 'stop-button' class = 'col btn'>stop</div>
+        </div>
+
+
+    </div>
+        
+    </div>
+    
+     
+
+</body>
+
+
+</html>
+
+<script type="text/javascript" src = "pomodoroclock.js">
+
+
+</script>
